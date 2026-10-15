@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(to right, #1e1e2f, #121212);
+    color: white;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 12px;
+    background: #1db954;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 220px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}

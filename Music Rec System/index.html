@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mood Music Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎵 Mood-Based Music Recommender</h1>
+
+<input type="text" id="moodInput" placeholder="How are you feeling?">
+<button onclick="getMusic()">Find Songs</button>
+
+<h2 id="moodText"></h2>
+<div>
+    <button onclick="setLanguage('mix')">🔀 Mix</button>
+    <button onclick="setLanguage('hindi')">🇮🇳 Bollywood</button>
+    <button onclick="setLanguage('english')">🌍 English</button>
+</div>
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
